@@ -1,0 +1,32 @@
+{
+  "name": "xanalia",
+  "version": "1.0.0",
+  "description": "this is blindbox project containing v1 version of blindbox which includes Generative & Premade type of Blindboxes",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test --network development"
+  },
+  "keywords": [
+    "blindbox",
+    "v1",
+    "generative",
+    "premade"
+  ],
+  "author": "naveed-ang",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "ethereumjs-tx": "^2.1.2",
+    "truffle-assert": "^0.9.1",
+    "truffle-contract-size": "^2.0.1",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.18"
+  }
+}
